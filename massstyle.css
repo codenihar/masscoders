@@ -1,0 +1,177 @@
+/* Default styles for all screen sizes */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Encode+Sans&family=Fira+Code&family=Fuggles&family=Gabarito&family=Montserrat:ital,wght@1,600&family=Mooli&family=Pixelify+Sans:wght@500&family=Poppins:wght@300&family=Titillium+Web&family=Ubuntu:ital,wght@1,500&display=swap');
+
+* {
+    color: white;
+}
+
+.anchor {
+    margin-left: auto;
+}
+
+.mass-logo {
+    height: 100px;
+    padding-left: 20px;
+}
+
+.mass-anchor {
+    color: white !important;
+    padding-right: 20px !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mass-anchor:hover {
+    color: rgb(40, 214, 40) !important;
+    transform: scale(1.09);
+}
+
+.mass-nihar {
+    font-family: 'Encode Sans', sans-serif;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+
+.mass-nihar-para {
+    font-family: 'Gabarito', cursive;
+    font-size: 20px;
+}
+
+.mass-body {
+    background-image: url('https://res.cloudinary.com/nihars3/image/upload/v1696232927/photo-1619429858348-2d5ad1547e6c_nnvynb.jpg');
+    background-size: cover;
+    height: auto;
+}
+
+.left-body {
+    padding-left: 100px !important;
+    color: white;
+    padding-top: 20px !important;
+}
+
+.body-section {
+    padding-top: 100px;
+    text-align: center;
+    height: 80vh;
+}
+
+.link-span {
+    text-decoration: none !important;
+    color: rgb(40, 214, 40) !important;
+}
+
+.what-we-do {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.about-h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+}
+
+.about-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+}
+
+.course-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.about-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.course-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    max-width: 590px;
+}
+
+.course-card {
+    border: 1px solid #ccc;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    min-height: 800px;
+    padding: 10px;
+}
+
+.course-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.course-card:hover {
+    border: 2px solid green;
+    transform: scale(1.05);
+}
+
+.social-icon {
+    height: 50px;
+    padding-right: 20px;
+}
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 768px) {
+    /* Adjust your styles for mobile devices here */
+    .mass-logo {
+        height: 80px;
+        padding-left: 10px;
+    }
+
+    .mass-anchor {
+        padding-right: 10px !important;
+        font-size: 14px;
+    }
+
+    .mass-nihar {
+        font-size: 40px;
+    }
+
+    .mass-nihar-para {
+        font-size: 16px;
+    }
+
+    .body-section {
+        padding-top: 50px;
+    }
+
+    .what-we-do {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-h1 {
+        font-size: 40px;
+    }
+
+    .about-title {
+        font-size: 24px;
+    }
+
+    .course-title {
+        font-size: 20px;
+    }
+
+    .about-p {
+        font-size: 20px;
+    }
+
+    .course-p {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .course-card {
+        min-height: auto;
+        padding: 10px;
+    }
+}
