@@ -45,7 +45,7 @@
 .left-body {
     padding-left: 100px !important;
     color: white;
-    padding-top: 20px !important;
+    padding-top: 40px !important;
 }
 
 .body-section {
@@ -87,6 +87,13 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
 }
+.pandaga-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.pandaga-p:hover {
+    color: rgb(40, 214, 40) !important;
+}
 
 .course-p {
     font-family: 'Montserrat', sans-serif;
@@ -112,6 +119,10 @@
 .course-card:hover {
     border: 2px solid green;
     transform: scale(1.05);
+}
+.course-logo{
+    height: 40px;
+    padding-right: 10px;
 }
 
 .social-icon {
